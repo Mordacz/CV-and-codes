@@ -1,0 +1,44 @@
+Wysokie loty
+
+PL
+Autor: Mateusz Orda
+
+Zaimplementowane są wszystkie funkcje api poza list_city.
+
+Wymagania:
+python3 z biblioteką psycopg2
+
+Uruchamianie programu:
+python3 main.py [--init] < input_file.json
+
+Program z parametrem --init nie czyta żadnych danych z wejścia, natomiast bez tego parametru czyta dane do napotkania znaku końca pliku.
+
+Odpowiedzi wypisywane są na standardowe wyjście.
+
+Przykładowy przebieg:
+python3 main.py --init
+python3 main.py < sample.json
+
+Plik sample.json zawiera przykład zaprezentowany w sekcji "Przykładowe wejście i wyjście" w specyfikacji projektu.
+
+EN
+Author: Mateusz Orda
+
+Implemented all api functions except list_city.
+
+Requirements:
+python3 with psycopg2 library
+
+Running:
+python3 main.py [--init] < input_file.json
+
+The program with --init parameter doesn't read anything from input, without that parameter it reads data until EOF.
+
+Answers are printed on standard output.
+
+Example run:
+python3 main.py --init
+python3 main.py < sample.json
+
+sample.json file contains the example presented in section "Sample in and out" from project specification.
+

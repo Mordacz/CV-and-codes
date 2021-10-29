@@ -1,0 +1,26 @@
+My current CV is available in CV_Orda_Mateusz.pdf
+
+Some examples of my codes form last year are in following directories:
+
+databases project (Python + SQL):
+Small (individual) project for university subject about databases.
+
+We were given the concrete specification. Shortly: we have the database with information about cities and airports; we are allowed to do some preprocessing, like adding new tables, and should then process events about flights (interaction uses some API). I translated into English README file (with more concrete documentation) and comments in init.sql.
+
+
+reversi (C++):
+Task for university subject about artificial intelligence.
+
+It contains smart bot playing reversi (a board game) against agent using random strategy. The task was to achieve average win ratio like 98% in 200 games, with some time limit (a few minutes).
+
+My bot uses precalculated data (which stand for heuristic 'value' of each field after some turns) and Monte Carlo Tree Search algorithm, which develops a tree during consecutive games (so initially the tree is poor, but it becomes better and better in further plays).
+
+
+data structures (C++):
+
+I really like competitive programming. I've been doing it for a long time (started in 2013), since few years also teaching algorithms and data structures (preparing high school students to Polish Olympiad in Informatics). 
+
+Here I picked two non-trivial data structures (segment tree with lazy propagation and treap). I implemented them step by step during classes (presented coding process using screen sharing and live discussion about what happens there).
+
+
+You can also look at my Codeforces account (https://codeforces.com/profile/Grzmot).
